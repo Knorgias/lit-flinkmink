@@ -10,9 +10,9 @@ import resolve from '@rollup/plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
 
 export default {
-  input: 'my-element.js',
+  input: 'flink-mink.js',
   output: {
-    file: 'my-element.bundled.js',
+    file: 'flink-mink.bundled.js',
     format: 'esm',
   },
   onwarn(warning) {
